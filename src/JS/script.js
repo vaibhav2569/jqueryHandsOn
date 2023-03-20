@@ -34,6 +34,15 @@ $("#target1").parent().css("background-color", "red");
 // 15.Target the Children of an Element Using jQuery
 $("#right-well").children().css("color", "orange");
 
+// 16.Target a Specific Child of an Element Using jQuery
+$(".target:nth-child(2)").addClass("animated bounce");
+
+// 17.Target Even Elements Using jQuery
+$(".target:even").addClass("animated shake");
+
+// 18.Use jQuery to Modify the Entire Page
+$("body").addClass("animated hinge");
+
   });
   
 
